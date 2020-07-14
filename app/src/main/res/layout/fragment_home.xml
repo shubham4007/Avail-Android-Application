@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/header"
+        android:id="@+id/header">
+
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_letsavail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_profile"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5sp"/>
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:background="@drawable/header2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="WOMEN"
+                android:textSize="25dp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:ellipsize="end"
+                android:maxLines="1">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="MEN"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:ellipsize="end"
+                android:maxLines="1">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KID"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:layout_marginEnd="8dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="570dp"
+        android:id="@+id/scroll"
+        android:layout_below="@id/relative"
+        android:fillViewport="true"
+        android:layout_above="@+id/rela2">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/home1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home1">
+            </ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letsbargain"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@+id/home2"
+                android:layout_marginBottom="10sp"/>
+            <ImageView
+                android:id="@+id/home2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home2"
+                android:layout_below="@+id/home1">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/home5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home3"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/home1">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home4"
+                android:layout_below="@+id/home2"
+                android:id="@+id/home4">
+            </ImageView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

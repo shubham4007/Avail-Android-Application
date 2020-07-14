@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cnb_unselectedColor="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/auction"
+        android:title="Auction"
+        android:icon="@drawable/ic_auction"
+        app:cnb_iconColor="#fff"
+        app:cnb_backgroundColor="#ff785b"
+        app:cnb_textColor="#fff"/>
+    <item
+        android:id="@+id/bag"
+        android:title="Bag"
+        android:icon="@drawable/ic_bag"
+        app:cnb_iconColor="#fff"
+        app:cnb_backgroundColor="#ff785b"
+        app:cnb_textColor="#fff"/>
+    <item
+        android:id="@+id/Home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        app:cnb_iconColor="#fff"
+        app:cnb_backgroundColor="#ff785b"
+        app:cnb_textColor="#fff"/>
+    <item
+        android:id="@+id/wishlist"
+        android:title="Wishlist"
+        android:icon="@drawable/ic_wishlist"
+        app:cnb_iconColor="#fff"
+        app:cnb_backgroundColor="#ff785b"
+        app:cnb_textColor="#fff"/>
+
+
+</menu>

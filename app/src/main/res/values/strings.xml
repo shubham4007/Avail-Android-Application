@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aatmnirbhar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_450"><strike> ₹450 </strike></string>
+    <string name="_999"><strike> ₹999 </strike></string>
+    <string name="_1550"><strike> ₹1550 </strike></string>
+    <string name="_7500"><strike> ₹7500 </strike></string>
+    <string name="_550"><strike> ₹550 </strike></string>
+    <string name="_750"><strike> ₹750 </strike></string>
+</resources>

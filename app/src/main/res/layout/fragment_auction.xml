@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AuctionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/header"
+        android:id="@+id/auctionheader"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUCTION"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="570dp"
+        android:id="@+id/scroll"
+        android:layout_below="@+id/auctionheader">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rel">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/auction2"
+                android:layout_margin="10sp"
+                android:id="@+id/auction5"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/auction3"
+        android:layout_below="@+id/auction5"
+        android:layout_margin="10dp"
+        android:id="@+id/auction1"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/auction1"
+        android:src="@drawable/auction4"
+        android:layout_marginLeft="10sp"
+        android:id="@+id/auction2"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/auction3"
+        android:layout_below="@+id/auction2"
+        android:src="@drawable/auction5"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10sp"/>
+
+    <TextView
+        android:id="@+id/lastbid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAST BID: 5000"
+        android:layout_below="@id/auction3"
+        android:textColor="#F40101"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time Remaning - 00:12:57"
+                android:layout_below="@id/lastbid"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="30dp"/>
+
+
+            <Button
+                android:id="@+id/bidButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BID"
+                android:textStyle="bold"
+                android:layout_below="@id/auction3"
+                android:layout_marginLeft="250sp"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bidButton"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/auction1"
+                android:layout_margin="10sp"
+                android:id="@+id/auction4"/>
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

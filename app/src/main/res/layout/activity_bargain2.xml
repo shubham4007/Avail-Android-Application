@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bargainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/header"
+        android:id="@+id/bargainHead"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sb2"
+        android:layout_below="@+id/bargainHead"
+        android:layout_margin="20sp"
+        android:id="@+id/barImg"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bargain1"
+        android:layout_below="@+id/barImg"
+        android:layout_margin="5sp"
+        android:id="@+id/brg1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bargain2"
+        android:layout_below="@+id/brg1"
+        android:layout_margin="5sp"
+        android:id="@+id/brg2"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bargain3"
+        android:layout_below="@+id/brg2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="10sp"
+        android:id="@+id/brg3"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bargain4"
+        android:layout_below="@+id/brg3"
+        android:layout_margin="5sp"
+        android:id="@+id/brg4"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bargain5"
+        android:layout_below="@+id/brg4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="10sp"
+        android:id="@+id/brg5"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bargain6"
+        android:layout_below="@+id/brg5"
+        android:layout_margin="5sp"
+        android:id="@+id/brg6"/>
+
+
+    <EditText
+        android:id="@+id/textbargain"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10sp"
+        android:hint="Let's Bargain..."/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/textbargain"
+        android:src="@drawable/ic_baseline_send_24"
+        android:layout_below="@id/brg6"
+        android:layout_marginTop="30sp"/>
+
+
+</RelativeLayout>

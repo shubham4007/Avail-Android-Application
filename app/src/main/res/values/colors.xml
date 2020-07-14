@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#141932</color>
+    <color name="colorPrimaryDark">#141932</color>
+    <color name="colorAccent">#ff785b</color>
+    <color name="colorAccentDark">#0b1039</color>
+
+    <color name="backgroundEditText">#5cffffff</color>
+    <color name="background">#ad8eda</color>
+
+    <color name="white">#ffffff</color>
+    <color name="grey">#E9EAEE</color>
+    <color name="yellow">#F8BA0F</color>
+    <color name="goodgrey">#535353</color>
+    <color name="blue">#293859</color>
+    <color name="lightgrey">#EEEEEE</color>
+
+
+    <color name="black">#000000</color>
+    <color name="border">#f1f5f7</color>
+    <color name="stroke">#e0e3e4</color>
+    <color name="circle_border">#FFBDBDBD</color>
+    <color name="sort_bar_background">#333333</color>
+    <color name="sort_bar_divider">#5c5c5c</color>
+    <color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bargain">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/relativeBargain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="WOMEN"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:ellipsize="end"
+                android:maxLines="1">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="MEN"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:ellipsize="end"
+                android:maxLines="1">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KID"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:layout_marginEnd="8dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/relativeBargain"
+        android:textStyle="bold"
+        android:text="Select and Bargain"
+        android:textSize="24dp"
+        android:layout_margin="10sp"/>
+    <ImageView
+        android:id="@+id/backBargain"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_below="@+id/relativeBargain"
+        android:src="@drawable/ic_back"
+        android:layout_marginTop="7sp"
+        android:layout_marginLeft="20sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sb1"
+        android:layout_below="@id/backBargain"
+        android:layout_margin="5dp"
+        android:id="@+id/sb1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sb1"
+        android:layout_marginLeft="5dp"
+        android:text="₹750"
+        android:id="@+id/text1"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sb2"
+        android:layout_toRightOf="@id/sb1"
+        android:layout_below="@id/backBargain"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sb1"
+        android:layout_marginLeft="210sp"
+        android:text="₹550"
+        android:id="@+id/text2"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sb3"
+        android:layout_below="@id/text1"
+        android:layout_margin="5dp"
+        android:id="@+id/sb3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sb3"
+        android:layout_marginLeft="5dp"
+        android:text="₹7500"
+        android:id="@+id/text3"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:id="@+id/sb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sb4"
+        android:layout_toRightOf="@id/sb3"
+        android:layout_below="@id/text2"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sb3"
+        android:layout_marginLeft="210sp"
+        android:text="₹1550"
+        android:id="@+id/text4"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sb5"
+        android:layout_below="@id/text3"
+        android:layout_margin="5dp"
+        android:id="@+id/sb5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sb5"
+        android:layout_marginLeft="5dp"
+        android:text="₹999"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:id="@+id/sb6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sb6"
+        android:layout_toRightOf="@id/sb3"
+        android:layout_below="@id/text4"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sb6"
+        android:layout_marginLeft="210sp"
+        android:text="₹450"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/header"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>
